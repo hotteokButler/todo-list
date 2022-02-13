@@ -1,0 +1,48 @@
+@charset 'utf-8';
+@import 'default.css';
+
+.logInBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  background-color: var(--color-green);
+  border-radius: var(--border-radius);
+}
+.greeting {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 50px;
+  line-height: 1.5em;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+.logInForm {
+  padding: 50px 50px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.logInForm form input {
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: var(--color-darkgreen);
+  border-bottom: 1px solid var(--color-green);
+  color: var(--color-olivegreen);
+}
+.logInForm form input::placeholder {
+  color: #fff;
+}
+.logInForm form button {
+  padding: 5px 10px;
+  font-size: 18px;
+  border: 1px solid var(--color-green);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-darkgreen);
+}
+.logInForm form button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+}

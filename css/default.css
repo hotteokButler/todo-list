@@ -1,0 +1,23 @@
+@charset 'utf-8';
+@import 'reset.css';
+
+#wrap {
+  position: relative;
+  max-width: 750px;
+  min-width: 400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+:root {
+  /* color */
+  --color-darkgreen: #10222b;
+  --color-olivegreen: #95ab63;
+  --color-green: #bdd684;
+  --color-lightolive: #e2f0d6;
+  --color-lightgreen: #f6ffe0;
+  /* style */
+  --border-radius: 10px 100px 10px 10px;
+}
+.hidden {
+  display: none;
+}
