@@ -11,11 +11,11 @@ const saveUsername = function (event) {
   const username = getUsername.value;
   localStorage.setItem(USERNAME_KEY, username);
   getUsername.value = '';
-  window.location.href = '../toDos.html';
+  window.location.href = '.././toDos.html';
 };
 
 logInForm.addEventListener('submit', saveUsername);
 
 if (localStorage.getItem(USERNAME_KEY) !== null) {
-  window.location.href = '../toDos.html';
+  window.location.href = '.././toDos.html';
 }
